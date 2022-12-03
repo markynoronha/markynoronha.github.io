@@ -1,0 +1,926 @@
+.home { 
+  font-family: 'Playfair Display', serif;  
+  font-size: larger;
+  display: grid; 
+  grid-template-rows: 1fr 6fr;
+  grid-template-columns: 1fr 4fr 4fr;
+}
+
+.heading { 
+  grid-row: 1/2; 
+  text-align: center; 
+  margin: 1rem;
+  grid-column: 1/2;
+} 
+
+.logo {
+  height: 90px;
+  width: 90px;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  margin: 1rem;
+}
+
+.discover1 { 
+  grid-row: 2/3; 
+  height: 800px; 
+  width: 600px; 
+  border-radius: 15px; 
+  background-image: url(https://www.nicekicks.com/files/2022/12/virgil-abloh-the-codes-co-architecture-exhibit-miami-6.jpg);
+} 
+
+.shoebtn { 
+  color: #6290E6; 
+  text-decoration: none;  
+  text-shadow: 1px 1px black;
+}  
+
+.shoecard {
+  margin-top: 50px;
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin-top: 500px;
+  margin-left: 20px;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  bottom: 50px;
+  margin-left: 20px;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: #6290E6;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropbtn2 {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #6290E6;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.heading2 {  
+  grid-row: 1/2;   
+  background-color: #9de0ff; 
+  text-align: start; 
+  display: grid; 
+  grid-template-columns: 1fr 1fr;  
+  position: fixed; 
+  top: 0; 
+  width: 975px; 
+  height: 100px; 
+  margin: 1rem;
+}  
+
+
+ul { 
+  font-size: larger;
+} 
+
+.shoebtn:hover, .shoebtn:focus { 
+  text-decoration: underline;
+}
+
+
+.menumobile { 
+  grid-row: 5/6; 
+  background-color: #56c9ff;    
+  width: 600px; 
+  height: 60px;  
+  display: flex;   
+  justify-content: space-around; 
+  align-items: center; 
+  position: fixed; 
+  bottom: 0;  
+  margin: 1rem;
+}  
+
+.menu { 
+  display: none;
+}
+
+.homebtn {  
+  height: 40px; 
+  width: 40px;
+} 
+
+.shopbtn {  
+  height: 40px; 
+  width: 40px;
+} 
+
+.aboutusbtn {   
+  height: 40px; 
+  width: 40px; 
+} 
+
+footer { 
+  grid-row: 6/7; 
+  font-size: x-small; 
+  margin: 1rem; 
+  width: 600px;
+}
+
+.shop { 
+  font-family: 'Playfair Display', serif;
+  display: grid; 
+  grid-template-rows: 1fr 3fr 3fr 3fr 1fr; 
+} 
+
+.title1 { 
+  display:none;
+} 
+
+.menu { 
+  display: none;
+} 
+
+.menu { 
+  display:none;
+}
+
+.shoes { 
+  grid-row: 2/3; 
+  display: flex; 
+  width: 100%; 
+  flex-direction: row; 
+  justify-content: center; 
+  margin: 1rem; 
+  grid-auto-rows: auto;
+  max-height: 400px;
+} 
+
+.botshoes {
+  grid-row: 3/4;
+  display: flex; 
+  width: 100%; 
+  flex-direction: row; 
+  justify-content: center; 
+  margin: 1rem; 
+  max-height: 400px;
+}
+
+.shoes, .botshoes {
+  grid-template-rows: 1fr 4 fr 4fr 1fr;
+}
+.waverunner { 
+  grid-column: auto;
+  display: flex; 
+  flex-direction: column; 
+  margin: 0.5rem; 
+  max-height: 200px; 
+  max-width: 200px; 
+  text-align: center;
+} 
+
+.presto { 
+  grid-column: auto;
+  display: flex; 
+  flex-direction: column; 
+  margin: 0.5rem; 
+  max-height: 200px; 
+  max-width: 200px; 
+  text-align: center;
+} 
+
+.redthunder { 
+  grid-column: auto;
+  display: flex; 
+  flex-direction: column; 
+  margin: 0.5rem; 
+  max-height: 200px; 
+  max-width: 200px;  
+  text-align: center;
+} 
+
+.azael { 
+  grid-column: auto;
+  display: flex; 
+  flex-direction: column; 
+  margin: 0.5rem; 
+  max-height: 200px; 
+  max-width: 200px; 
+  text-align: center;
+} 
+
+.waverunnerbutton { 
+  color: black; 
+  text-decoration: none; 
+  font-size: smaller; 
+} 
+
+.waverunnerbutton:hover, .waverunnerbutton:focus { 
+    text-decoration: underline;
+} 
+
+.prestobutton { 
+  color: black; 
+  text-decoration: none; 
+  font-size: smaller; 
+} 
+
+.prestobutton:hover, .prestobutton:focus { 
+  text-decoration: underline;
+} 
+
+.redthunderbutton { 
+  color: black; 
+  text-decoration: none; 
+  font-size: smaller; 
+} 
+
+.redthunderbutton:hover, .redthunderbutton:focus { 
+  text-decoration: underline;
+} 
+
+.azaelbutton { 
+  color: black; 
+  text-decoration: none; 
+  font-size: smaller; 
+} 
+
+.azaelbutton:hover, .azaelbutton:focus { 
+  text-decoration: underline;
+} 
+
+.aboutus { 
+  font-family: 'Playfair Display', serif;
+  display: grid; 
+  grid-template-rows: 1fr 4fr 4fr 1fr 1fr;
+  grid-row: 1/5; 
+  display: flex; 
+  width: 100%; 
+  flex-direction: column; 
+  justify-content: center; 
+  margin: 1rem; 
+} 
+
+.ryanethan {
+  margin-left: 0%;
+  grid-row: 2/2;
+}
+
+.aboutusbtnfont { 
+  color:black; 
+  text-align: center; 
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+}  
+
+.aboutusbtns {  
+  grid-row: 3/4;
+  width: 600px;  
+  margin: 1rem;   
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-around;  
+  align-items: center;  
+  font-family: 'Playfair Display', serif;
+} 
+
+.aboutusbtn1 { 
+  width: 400px;  
+  height: 45px;
+  background-color: #9de0ff ; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  border-radius: 10px; 
+  margin:1.5rem;
+  color: black; 
+  text-decoration: none;  
+} 
+
+.aboutusbtn2 { 
+  width: 400px;  
+  height: 45px;
+  background-color: #9de0ff ; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  border-radius: 10px; 
+  margin:1.5rem;
+  color: black; 
+  text-decoration: none;  
+} 
+
+.aboutusbtn3 { 
+  width: 400px;  
+  height: 45px;
+  background-color: #9de0ff ; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  border-radius: 10px; 
+  margin:1.5rem;
+  color: black; 
+  text-decoration: none;  
+} 
+
+.aboutusbtn4 { 
+  width: 400px;  
+  height: 45px;
+  background-color: #9de0ff ; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  border-radius: 10px; 
+  margin:1.5rem;
+  color: black; 
+  text-decoration: none;  
+} 
+
+.aboutusbtn1:hover, .aboutusbtn2:hover, .aboutusbtn3:hover, .aboutusbtn4:hover, .aboutusbtn1:focus, .aboutusbtn2:focus, .aboutusbtn3:focus, .aboutusbtn4:focus { 
+  color: white; 
+} 
+
+
+.sneaker { 
+  font-family:  Verdana, sans-serif;; 
+  display: grid;  
+  grid-template-rows: 1fr 4fr 1fr 2fr;
+} 
+
+.shoeheading { 
+  grid-row: 1/2; 
+  background-color: #56c9ff; 
+  width: 600px;    
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin: 1rem
+}  
+
+h2 { 
+  color: white; 
+  font-size: 20px;
+}  
+
+h6 { 
+  color: black; 
+  font-size: 15px;
+}  
+
+
+.shoepic { 
+  grid-row: 2/3; 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  margin: 1rem;  
+} 
+
+.picture { 
+  grid-column: 1/3; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+} 
+
+.pic { 
+  height: 400px; 
+  width: 400px;
+}
+
+.sizeprice { 
+  grid-row: 3/4; 
+  display: flex;   
+  margin-left: 1rem; 
+  justify-content: space-around; 
+  align-items: center; 
+  width: 600px;
+} 
+
+.sizebtn {
+  background-color: #9de0ff;
+  color: white;
+  padding: 16px;
+  font-size: 25px;
+  border: none; 
+  width: 300px; 
+  text-align: center;  
+} 
+
+.sizemenu {  
+  display:none; 
+  position: absolute;
+  background-color: #9de0ff;
+  min-width: 100px;
+  z-index: 1; 
+}  
+
+.sizemenu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; 
+} 
+
+h4 { 
+  display: inline-block;  
+  font-size: 30px; 
+} 
+
+.sizemenu a:hover {background-color: rgb(182, 237, 255);} 
+.sizeprice:hover .sizemenu {display: block;} 
+.sizeprice:hover .sizebtn {background-color: rgb(111, 173, 255);}
+
+.description { 
+  grid-row: 4/5; 
+  width: 600px; 
+  margin-left: 1rem; 
+}  
+
+h5 { 
+  font-size: 20px; 
+  text-align: center;
+} 
+
+.title2 { 
+  display: none;
+}  
+
+.title3 { 
+  display: none;
+} 
+
+.menu { 
+  display:none;
+} 
+
+.heading4 { 
+  display:none;
+}
+
+
+@media only screen and (min-width: 750px) { 
+  .heading { 
+    width: 800px; 
+    text-align: center; 
+    left: 90px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;  
+    position: fixed; 
+    top: 0;
+} 
+
+.shoecard {
+  margin-top: 300px;;
+}
+
+.logo {
+  position: fixed;
+}
+
+
+.menumobile { 
+    display:none;
+}  
+
+.dropup {
+  display:none;
+}
+
+.title { 
+    grid-column: 1/2; 
+    text-align:center;
+}
+
+  
+  .ryanethan {
+    margin-left: 25%;
+  }
+
+
+  .menu { 
+      display: flex; 
+      align-items: center;  
+      justify-content:space-around;
+  }  
+
+  .homebutton { 
+      text-decoration: none; 
+      color: black;
+  } 
+
+  .homebutton:hover, .homebutton:focus { 
+      text-decoration: underline;
+  }
+
+  ul { 
+      font-size: x-large; 
+  } 
+
+  .discover1 { 
+      width: 975px;
+  } 
+
+  footer { 
+      font-size: small; 
+      width: 975px; 
+      text-align: center;
+  } 
+  
+  .shop { 
+      grid-template-rows: 1fr 1fr 4fr 4fr 4fr 1fr;   
+  }  
+
+  .heading2 {  
+      grid-row: 1/2;   
+      background-color: #9de0ff; 
+      text-align: start; 
+      display: grid; 
+      grid-template-columns: 1fr 1fr;  
+      position: fixed; 
+      top: 0; 
+      width: 975px; 
+      height: 100px; 
+      margin: 1rem;
+  }  
+
+  .title1 { 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      grid-column: 1/2; 
+      text-align:center;
+  }  
+
+  .menu { 
+      grid-column: 2/3; 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-around;
+  }
+
+
+  .shoes { 
+      width: 975px; 
+      grid-row: 3/4;  
+      display: flex; 
+      align-items: center;
+  }  
+
+  .waverunner { 
+      height: 500px; 
+      width: 500px;
+  } 
+
+  .presto {  
+      height: 500px; 
+      width: 500px;
+  }
+
+  .botshoes { 
+      width: 975px; 
+      grid-row: 4/5; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center;   
+  } 
+  
+  .redthunder { 
+      height: 450px; 
+      width: 450px;
+  } 
+
+  .azael { 
+      height: 450px; 
+      width: 450px;
+  }
+
+  .aboutus { 
+      grid-template-rows: 1fr 1fr 4fr; 
+      background-color: white;
+  }  
+
+  .heading4 { 
+      grid-row: 1/2; 
+      background-color: #9de0ff; 
+      width: 975px; 
+      height: 100px; 
+      display: grid; 
+      grid-template-columns: 1fr 1fr; 
+      margin: 1rem
+  } 
+  .title3 { 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      grid-column: 1/2; 
+      text-align:center;
+  }  
+
+  .menu { 
+      grid-column: 2/3; 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-around;
+  }
+
+  .aboutusheading { 
+      grid-row: 2/3; 
+      display: flex; 
+      justify-content: center; 
+      width: 975px; 
+      height: 60px; 
+      background-color: #9de0ff;  
+  }  
+
+  .aboutusheading h1 { 
+      color: black; 
+      text-align: center;
+  }
+
+  .aboutusbtns {  
+      grid-row: 3/4;
+      width: 975px;  
+  } 
+
+  .aboutusbtn1 { 
+      width: 600px;
+  } 
+
+  .aboutusbtn2 { 
+      width: 600px;
+  } 
+
+  .aboutusbtn3 { 
+      width: 600px;
+  }
+
+  .aboutusbtn4 { 
+      width: 600px;
+  } 
+
+  .aboutusbtn5 { 
+      width: 600px;
+  }
+   
+  .sneaker { 
+      display: grid; 
+      grid-template-rows: 1fr 1fr 3fr 1fr 1fr; 
+      height: fit-content;
+  } 
+  .heading3 { 
+      grid-row: 1/2; 
+      background-color:#9de0ff;   
+      text-align: start; 
+      display: grid; 
+      grid-template-columns: 1fr 1fr;  
+      position: fixed; 
+      top: 0; 
+      width: 975px; 
+      height: 100px; 
+      margin: 1rem;
+  }  
+
+  .title1 { 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      grid-column: 1/2; 
+      text-align:center;
+  }  
+
+  .menu { 
+      grid-column: 2/3; 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-around;
+  }
+  .shoeheading {  
+      width: 975px; 
+      grid-row: 2/3; 
+      opacity: 0.5; 
+      
+  }  
+
+  .shoepic { 
+      grid-row: 3/4; 
+      width: 975px;   
+      height: 400px;       
+  }    
+
+  .pic { 
+      height: 500px; 
+      width: 500px; 
+  }
+
+  .sizeprice { 
+      grid-row: 4/5; 
+      width: 800px; 
+  }
+
+  .sizebtn { 
+      width: 500px; 
+  } 
+
+  .sizemenu { 
+      width: 250px;
+  } 
+
+  .description { 
+      grid-row: 5/6 ; 
+      width: 975px; 
+  } 
+
+  h5 { 
+      font-size: 25px;;
+  }
+} 
+
+@media only screen and (min-width: 1200px) { 
+  .heading { 
+    width: 1100px;  
+} 
+
+.dropup {
+  display:none;
+}
+
+.discover1 { 
+    width: 1390px;
+} 
+
+.shoecard {
+  margin-top: 300px;;
+}
+
+  footer { 
+      width: 1390px;
+  } 
+
+  .heading2 { 
+      width: 1390px;  
+      height: 150px;
+  } 
+
+  .shoes { 
+    grid-row: 4/10; 
+    display: flex; 
+    width: 100%; 
+    flex-direction: row; 
+    justify-content: center; 
+    margin: 1rem; 
+  }  
+  
+  .botshoes {
+    grid-row: 4/10; 
+    display: flex; 
+    width: 100%; 
+    flex-direction: row; 
+    justify-content: center; 
+    margin: 1rem; 
+  }
+  .waverunner {
+    grid-column: 1/2;
+    max-height: 315px; 
+    max-width: 315px; 
+  } 
+
+  .presto {
+    grid-column: 3/4;
+    max-height: 315px; 
+    max-width: 315px; 
+  }
+
+
+  .redthunder {
+    grid-column: 5/6;
+    max-height: 315px; 
+    max-width: 315px; 
+  } 
+
+  .azael {
+    grid-column: 7/8;
+    max-height: 315px; 
+    max-width: 315px; 
+  }
+
+  .heading4 { 
+      width: 1390px; 
+      height: 150px;
+  }
+  
+  .aboutusheading { 
+      width: 1390px;
+  }
+
+  .aboutusbtns { 
+      width: 1390px;
+  } 
+
+  .aboutusbtn1 { 
+      width: 800px;
+  } 
+
+  .aboutusbtn2 { 
+      width: 800px;
+  } 
+
+  .aboutusbtn3 { 
+      width: 800px;
+  } 
+
+  .aboutusbtn4 { 
+      width: 800px;
+  } 
+
+  .aboutusbtn5 { 
+      width: 800px;
+  } 
+
+  .heading3 { 
+      width: 1390px; 
+      height: 200px; 
+  } 
+
+  .shoeheading { 
+      width: 1390px; 
+      height: 150px 
+  } 
+
+  .shoepic { 
+      width: 1390px; 
+      height: 900px; 
+  } 
+  
+  .picture { 
+      height: 900px;
+  } 
+
+  .pic { 
+      height: 700px; 
+      width: 700px;
+  }
+
+  .sizeprice { 
+      width: 1000px;
+  }
+
+  .sizebtn { 
+      width: 700px;
+  } 
+
+  .sizemenu { 
+      width: 400px;
+  } 
+
+  .description {  
+      width: 1390px; 
+  } 
+
+  h5 { 
+      font-size: 30px;;
+  }
+  .ryanethan {
+    margin-left: 33%;
+  }
+}
+
+
+
